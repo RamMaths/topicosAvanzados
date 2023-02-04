@@ -137,11 +137,13 @@ public class practica1 {
         System.out.println(alumnos[0].toString());
     }
     
+    //limpiar la pantalla de la consola
     static void limpiarPantalla() {
         System.out.print("\033[H\033[2J");  
         System.out.flush(); 
     }
 
+    //aumentar puntos a cada alumno
     static void aumentarPuntos(Alumno alumno) {
         float[] calif = alumno.getCalif();
         for(int i=0; i<calif.length; i++) {
