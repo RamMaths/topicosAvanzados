@@ -1,0 +1,11 @@
+# compiled
+######################
+*.class
+
+#docs and files
+*.pdf
+*.docx
+*.doc
+*.png
+*.jpg
+*.jpeg
